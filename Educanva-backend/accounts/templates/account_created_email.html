@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Created</title>
+</head>
+<body>
+    <p>Dear {{ user.first_name }},</p>
+    <p>Your account has been created successfully.</p>
+    <p>Here are your account details:</p>
+    <ul>
+        <li>Email: {{ user.email }}</li>
+        <li>Password: {{ password }}</li>
+    </ul>
+    <p>Please change your password as soon as possible.</p>
+</body>
+</html>
